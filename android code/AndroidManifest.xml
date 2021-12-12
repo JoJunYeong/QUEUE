@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zero.gym"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:label="@string/title_activity_intro" >
+        </activity>
+        <activity
+            android:name=".Reservation"
+            android:label="@string/title_activity_reservation" >
+        </activity>
+        <activity
+            android:name=".Send"
+            android:label="@string/title_activity_send" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Tworoad"
+            android:label="@string/title_activity_tworoad" >
+        </activity>
+        <activity
+            android:name=".Personal_tworoad"
+            android:label="@string/title_activity_personal_tworoad" >
+        </activity>
+        <activity
+            android:name=".Gym_list"
+            android:label="@string/title_activity_gym_list" >
+        </activity>
+        <activity
+            android:name=".Sendok"
+            android:label="@string/title_activity_sendok" >
+        </activity>
+        <activity
+            android:name=".Reservation_check"
+            android:label="@string/title_activity_reservation_check" >
+        </activity>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".Gym_information"
+            android:label="@string/title_activity_gym_information" >
+        </activity>
+        <activity
+            android:name=".Conform_no"
+            android:label="@string/title_activity_conform_no" >
+        </activity>
+
+        <service android:name=".BackgroundSearch" >
+        </service>
+        <service android:name=".CancleSearch" >
+        </service>
+
+        <activity
+            android:name=".Reservation_check_login"
+            android:label="@string/title_activity_reservation_check_login" >
+        </activity>
+        <activity
+            android:name=".Personal"
+            android:label="@string/title_activity_personal" >
+        </activity>
+        <activity
+            android:name=".T_queue"
+            android:label="@string/title_activity_t_queue" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>

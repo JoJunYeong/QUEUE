@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Queue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="title_activity_send">Send</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_tworoad">Tworoad</string>
+    <string name="title_activity_personal_tworoad">Personal_tworoad</string>
+    <string name="title_activity_gym_list">Gym_list</string>
+    <string name="title_activity_sendok">Sendok</string>
+    <string name="title_activity_reservation_check">Reservation_check</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_gym_information">Gym_information</string>
+    <string name="title_activity_conform_no">Conform_no</string>
+    <string name="title_activity_reservation_check_login">Reservation_check_login</string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="title_activity_t_queue">T_queue</string>
+
+</resources>

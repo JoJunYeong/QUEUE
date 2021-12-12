@@ -1,0 +1,361 @@
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+             tools:context="com.zero.gym.Reservation">
+
+          
+            
+            
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" 
+                    android:layout_weight="1" 
+                    >
+
+                      <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                    
+                      <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="시간"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:gravity="center"
+                         android:layout_weight="0.5" 
+                         android:layout_margin="5dip" />
+
+                      <TextView
+                          android:id="@+id/textView2"
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:text="예약자"
+                          android:gravity="center"
+                          android:textAppearance="?android:attr/textAppearanceLarge" 
+                           android:layout_weight="0.5"/>
+                
+                  </LinearLayout>
+                
+   				<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                        android:text="09:00~10:00" 
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView3"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout>
+                      
+                	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                        android:text="10:00~11:00" 
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView4"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout>      
+                      
+                	
+                	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                        android:text="11:00~12:00" 
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView5"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout>   
+                	
+                	
+                	<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                        android:text="12:00~13:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView6"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 
+                	
+                	
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="13:00~14:00" 
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView7"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                	
+                	
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="14:00~15:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView8"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                	
+                	
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="15:00~16:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView9"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                	
+                	
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="16:00~17:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView10"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 		
+                	
+                	
+                	 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="17:00~18:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView11"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                	
+                	
+                	 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="18:00~19:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView12"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                 
+                 
+                 
+                 
+                	 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="19:00~20:00" 
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView13"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                 
+                 
+                 	 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                      
+                       <Button
+                        android:id="@+id/button12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                         android:gravity="center"
+                         android:text="20:00~21:00"
+                         android:layout_weight="0.5"
+                         android:layout_margin="5dip"/>
+
+                       <TextView
+                           android:id="@+id/textView14"
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:layout_weight="0.5"
+                           android:text="없음"
+                         android:gravity="center"
+                           android:textAppearance="?android:attr/textAppearanceLarge" />
+   				    
+                </LinearLayout> 	
+                 
+                 
+                 
+                 
+                 
+                 
+                	
+                	
+                	
+                	
+                      
+                      
+            </LinearLayout>
+         
+        </ScrollView>
+        
+
+

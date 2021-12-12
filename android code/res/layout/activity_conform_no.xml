@@ -1,0 +1,314 @@
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+             tools:context="com.zero.gym.Conform_no">
+
+         
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView22212221"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Your status"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="날짜"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView222221"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Student Name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="날짜"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Student Seat"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="없음"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2122"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Waiting"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="없음"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Available" />
+            
+            
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Unavailable" />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Queue" />
+            
+            
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Ticket" />
+
+        </LinearLayout>
+         
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+         
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Accept" />
+
+        </LinearLayout>
+
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+         
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Refresh" />
+
+        </LinearLayout>
+        
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dip"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+         
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Start service" />
+
+        </LinearLayout>
+        
+        
+        
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>
+        
